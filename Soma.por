@@ -1,15 +1,22 @@
 programa {
+	
 	funcao inicio() {
-	    inteiro num1, num2, soma
-	    
-		//Forma longa de apresentar a soma de dois números
-		escreva("Digite o primeiro número: ")
-		leia(num1)
+
+		inteiro num1, num2
+
+
+
+		//soma de dois números
+
+		escreva("Digitte dois números: ")
+
+		leia(num1,num2)
+
 		
-		escreva("Digite o segundo número: ")
-		leia(num2)
 		
-		soma=num1+num2
-		escreva("Resultado: " + soma)
+		escreva("Resultado: " + (num1+num2))
+
+
 	}
+
 }
