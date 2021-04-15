@@ -1,7 +1,7 @@
 programa {
 	funcao inicio() {
 		cadeia vendedor
-		real salario, vendas, comissao, total
+		real salario, vendas
 		
 		escreva("Digite o nome do vendedor: ")
 		leia(vendedor)
@@ -12,12 +12,8 @@ programa {
 		escreva("Digite o valor de vendas: R$ ")
 		leia(vendas)
 		
-		comissao=0.15*vendas
-		total=comissao+salario
-		
 		escreva("\n" + "Vendedor: " + vendedor + "\n")
 		escreva("Salário Fixo: R$ " + "\n")
-		escreva("Total Salário: R$ " + total)
-		
+		escreva("Total Salário: R$ " + ((0.15*vendas)+salario))
 	}
 }
