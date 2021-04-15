@@ -1,6 +1,6 @@
 programa {
 	funcao inicio() {
-		inteiro num1, num2, soma, subtracao, multiplicacao, divisao
+		inteiro num1, num2
 		
 		escreva("Digite dois números: ")
 		leia(num1, num2)
