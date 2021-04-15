@@ -1,6 +1,6 @@
 programa {
 	funcao inicio() {
-		real consumo, distancia, combustivel
+		real distancia, combustivel
 		
 		escreva("Digite a distância percorrida: ")
 		leia(distancia)
@@ -8,8 +8,6 @@ programa {
 		escreva("Digite a quantidade gasta de combustivel: ")
 		leia(combustivel)
 		
-		consumo=distancia/combustivel
-		
-		escreva("Consumo médio: " + consumo)
+		escreva("Consumo médio: " + (distancia/combustivel))
 	}
 }
